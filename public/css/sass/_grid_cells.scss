@@ -1,0 +1,12 @@
+// Loops to enumerate the classes for grid items
+@for $i from 1 through 12 {
+  .easy-grid-cell.cells-#{$i} {
+    grid-column: span #{$i};
+  }
+}
+
+@media screen and (max-width: $width__sm) {
+  @for $i from 1 through 12 {
+    .easy-grid-cell.cells-#{$i}, { grid-column: span 12; }
+  }
+}

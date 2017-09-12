@@ -1,0 +1,21 @@
+.easy-grid {
+  display: grid;
+  grid-gap: $grid_gap__default;
+  grid-template-columns: repeat(12, 1fr ) ;
+  margin-bottom: 1em;
+
+  &.no-gap {
+    grid-gap: 0;
+  }
+
+  &.alternate {
+
+    .easy-grid-cell {
+      background-color: $bg_color__cell;
+
+      &:nth-child(even) {
+        background-color: $bg_color__cell_alt;
+      }
+    }
+  }
+}

@@ -1,4 +1,91 @@
 /**
  * All of the CSS for your public-facing functionality should be
  * included in this file.
+ * SCSS
  */
+.easy-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(12, 1fr);
+  margin-bottom: 1em; }
+  .easy-grid.no-gap {
+    grid-gap: 0; }
+  .easy-grid.alternate .easy-grid-cell {
+    background-color: #f0f8ff; }
+    .easy-grid.alternate .easy-grid-cell:nth-child(even) {
+      background-color: #6dbfe6; }
+
+.easy-grid-cell.cells-1 {
+  grid-column: span 1; }
+
+.easy-grid-cell.cells-2 {
+  grid-column: span 2; }
+
+.easy-grid-cell.cells-3 {
+  grid-column: span 3; }
+
+.easy-grid-cell.cells-4 {
+  grid-column: span 4; }
+
+.easy-grid-cell.cells-5 {
+  grid-column: span 5; }
+
+.easy-grid-cell.cells-6 {
+  grid-column: span 6; }
+
+.easy-grid-cell.cells-7 {
+  grid-column: span 7; }
+
+.easy-grid-cell.cells-8 {
+  grid-column: span 8; }
+
+.easy-grid-cell.cells-9 {
+  grid-column: span 9; }
+
+.easy-grid-cell.cells-10 {
+  grid-column: span 10; }
+
+.easy-grid-cell.cells-11 {
+  grid-column: span 11; }
+
+.easy-grid-cell.cells-12 {
+  grid-column: span 12; }
+
+@media screen and (max-width: 1300px) {
+  .easy-grid-cell.cells-1 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-2 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-3 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-4 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-5 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-6 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-7 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-8 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-9 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-10 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-11 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.cells-12 {
+    grid-column: span 12; } }
+
+/*# sourceMappingURL=wp-easy-grid.css.map */
