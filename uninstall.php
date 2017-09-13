@@ -3,7 +3,7 @@
 /**
  * Fired when the plugin is uninstalled.
  *
- * @link       http://example.com
+ * @link       https://drim.io/wp-easy-grid/
  * @since      1.0.0
  *
  * @package    WP_Easy_Grid

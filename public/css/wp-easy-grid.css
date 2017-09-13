@@ -1,7 +1,5 @@
 /**
- * All of the CSS for your public-facing functionality should be
- * included in this file.
- * SCSS
+ * Grid CSS Styles
  */
 .easy-grid {
   display: grid;
@@ -10,82 +8,97 @@
   margin-bottom: 1em; }
   .easy-grid.no-gap {
     grid-gap: 0; }
+  .easy-grid.big-gap {
+    grid-gap: 20px; }
+  .easy-grid.bordered .easy-grid-cell {
+    border: 1px solid #c1c1c1; }
   .easy-grid.alternate .easy-grid-cell {
-    background-color: #f0f8ff; }
+    background-color: #bfd8b2; }
     .easy-grid.alternate .easy-grid-cell:nth-child(even) {
-      background-color: #6dbfe6; }
+      background-color: #84a288; }
 
-.easy-grid-cell.cells-1 {
+.easy-grid-cell.cells_1 {
   grid-column: span 1; }
 
-.easy-grid-cell.cells-2 {
+.easy-grid-cell.cells_2 {
   grid-column: span 2; }
 
-.easy-grid-cell.cells-3 {
+.easy-grid-cell.cells_3 {
   grid-column: span 3; }
 
-.easy-grid-cell.cells-4 {
+.easy-grid-cell.cells_4 {
   grid-column: span 4; }
 
-.easy-grid-cell.cells-5 {
+.easy-grid-cell.cells_5 {
   grid-column: span 5; }
 
-.easy-grid-cell.cells-6 {
+.easy-grid-cell.cells_6 {
   grid-column: span 6; }
 
-.easy-grid-cell.cells-7 {
+.easy-grid-cell.cells_7 {
   grid-column: span 7; }
 
-.easy-grid-cell.cells-8 {
+.easy-grid-cell.cells_8 {
   grid-column: span 8; }
 
-.easy-grid-cell.cells-9 {
+.easy-grid-cell.cells_9 {
   grid-column: span 9; }
 
-.easy-grid-cell.cells-10 {
+.easy-grid-cell.cells_10 {
   grid-column: span 10; }
 
-.easy-grid-cell.cells-11 {
+.easy-grid-cell.cells_11 {
   grid-column: span 11; }
 
-.easy-grid-cell.cells-12 {
+.easy-grid-cell.cells_12 {
   grid-column: span 12; }
 
 @media screen and (max-width: 1300px) {
-  .easy-grid-cell.cells-1 {
+  .easy-grid-cell.cells_1 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-2 {
+  .easy-grid-cell.cells_2 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-3 {
+  .easy-grid-cell.cells_3 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-4 {
+  .easy-grid-cell.cells_4 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-5 {
+  .easy-grid-cell.cells_5 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-6 {
+  .easy-grid-cell.cells_6 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-7 {
+  .easy-grid-cell.cells_7 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-8 {
+  .easy-grid-cell.cells_8 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-9 {
+  .easy-grid-cell.cells_9 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-10 {
+  .easy-grid-cell.cells_10 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-11 {
+  .easy-grid-cell.cells_11 {
     grid-column: span 12; }
 
-  .easy-grid-cell.cells-12 {
+  .easy-grid-cell.cells_12 {
     grid-column: span 12; } }
+.easy-grid-cell.half_grid {
+  grid-column: span 6; }
+
+.easy-grid-cell.third_grid {
+  grid-column: span 4; }
+
+.easy-grid-cell.fourth_grid {
+  grid-column: span 3; }
+
+.easy-grid-cell.sixth_grid {
+  grid-column: span 2; }
 
 /*# sourceMappingURL=wp-easy-grid.css.map */

@@ -3,13 +3,13 @@
 /**
  * WP EASY GRID
  *
- * @link              http://example.com
+ * @link              https://drim.io/wp-easy-grid/
  * @since             1.0.0
  * @package           wp_easy_grid
  *
  * @wordpress-plugin
  * Plugin Name:       WP Easy Grid
- * Plugin URI:        http://example.com/plugin-name-uri/
+ * Plugin URI:        https://drim.io/wp-easy-grid/
  * Description:       An simple CSS Grid plugin for WP to easily make grid layouts.
  * Version:           1.0.0
  * Author:            Levon Avetyan
@@ -19,14 +19,6 @@
  * Text Domain:       wp_easy_grid
  * Domain Path:       /languages
  */
-
-
-/*
-* plugin-name -> wp-easy-grid
-* plugin_name -> wp_easy_grid
-* Plugin_Name -> WP_Easy_Grid
-*/
-
 
  // If this file is called directly, abort.
  if ( ! defined( 'WPINC' ) ) {
@@ -62,10 +54,6 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-wp-easy-grid.php';
 
 /**
  * Begins execution of the plugin.
- *
- * Since everything within the plugin is registered via hooks,
- * then kicking off the plugin from this point in the file does
- * not affect the page life cycle.
  *
  * @since    1.0.0
  */

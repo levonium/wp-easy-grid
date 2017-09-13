@@ -8,6 +8,17 @@
     grid-gap: 0;
   }
 
+  &.big-gap {
+    grid-gap: $grid_gap__big;
+  }
+
+  &.bordered {
+
+    .easy-grid-cell {
+      border: 1px solid $color__cell_border;
+    }
+  }
+
   &.alternate {
 
     .easy-grid-cell {

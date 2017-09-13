@@ -3,22 +3,11 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://devinvinson.com
- * @since      1.0.0
- *
- * @package    WP_Easy_grid
- * @subpackage WP_Easy_grid/admin
- */
-
-/**
- * The admin-specific functionality of the plugin.
- *
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
  * @package    WP_Easy_grid
  * @subpackage WP_Easy_grid/admin
- * @author     Devin Vinson <devinvinson@gmail.com>
  */
 class WP_Easy_grid_Admin {
 

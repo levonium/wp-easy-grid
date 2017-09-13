@@ -3,7 +3,7 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       http://devinvinson.com
+ * @link       https://drim.io/wp-easy-grid/
  * @since      1.0.0
  *
  * @package    WP_Easy_Grid
@@ -14,11 +14,10 @@
  * The public-facing functionality of the plugin.
  *
  * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the admin-specific stylesheet and JavaScript.
+ * enqueue the admin-specific stylesheet.
  *
  * @package    WP_Easy_Grid
  * @subpackage WP_Easy_Grid/public
- * @author     Devin Vinson <devinvinson@gmail.com>
  */
 class WP_Easy_Grid_Public {
 
