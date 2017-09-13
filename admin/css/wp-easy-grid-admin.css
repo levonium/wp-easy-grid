@@ -16,6 +16,9 @@
   z-index: 1001;
 }
 
+.wp_grid_select_box {
+  width: 104px;
+}
 .wp_grid_select_columns {
   left: 396px;
 }
@@ -33,4 +36,11 @@
 .select_wp_grid:hover {
   background-color: #0073aa;
   color: #fff;
+}
+
+#wp-easy-grid-button span {
+  width: 18px;
+  height: 18px;
+  margin: 2px 6px 0 0;
+  color: #555;
 }

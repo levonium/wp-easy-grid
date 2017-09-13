@@ -96,15 +96,30 @@
 		 }
 
 
-		 /*
+
 		 $(document).click(function(event) {
-			 if(!$(event.target).closest(".wp_grid_select_columns").length || !$(event.target).closest(".wp_grid_show_columns").length) {
-				 if($(".wp_grid_select_columns").is(":visible")) {
-					 $(".wp_grid_select_columns").hide( "slow" );
+			 if(!$(event.target).closest(".wp_grid_select_box").length && !$(event.target).closest("#wp-easy-grid-button").length) {
+				 if($(".wp_grid_select_box").is(":visible")) {
+					 $(".wp_grid_select_box").hide();
 				 }
 			 }
 		 });
-		 */
+
+		 $(document).click(function(event) {
+			 if(!$(event.target).closest(".wp_grid_select_columns").length && !$(event.target).closest(".wp_grid_show_columns").length) {
+				 if($(".wp_grid_select_columns").is(":visible")) {
+					 $(".wp_grid_select_columns").hide();
+				 }
+			 }
+		 });
+
+		 $(document).click(function(event) {
+			 if(!$(event.target).closest(".wp_grid_select_cells").length && !$(event.target).closest(".wp_grid_show_cells").length) {
+				 if($(".wp_grid_select_cells").is(":visible")) {
+					 $(".wp_grid_select_cells").hide();
+				 }
+			 }
+		 });
 
 	 });
 

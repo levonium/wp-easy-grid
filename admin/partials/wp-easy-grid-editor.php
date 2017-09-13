@@ -9,7 +9,7 @@
  add_action('media_buttons', 'add_wp_easy_grid_media_button', 20);
 
  function add_wp_easy_grid_media_button() {
-    echo '<a href="#" id="wp-easy-grid-button" class="button">' . __( "Easy Grid", "wp_easy_grid" ) . '</a>';
+    echo '<a href="#" id="wp-easy-grid-button" class="button"><span class="dashicons dashicons-screenoptions"></span>' . __( "Easy Grid", "wp_easy_grid" ) . '</a>';
   }
 
 

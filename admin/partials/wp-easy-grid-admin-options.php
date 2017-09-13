@@ -7,8 +7,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Direct access not allowed.
 }
 
-?> <script> console.log("hello"); </script> <?php
-
 /**
  * Register a custom menu page
  */
