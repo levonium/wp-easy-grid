@@ -1,3 +1,36 @@
 /**
  * Admin options page CSS Styles.
  */
+
+.wp_grid_select_box,
+.wp_grid_select_columns,
+.wp_grid_select_cells,
+.wp_grid_select_grid {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  padding: 12px 0;
+  box-shadow: 0 3px 5px rgba(0,0,0,.2);
+  top: 185px;
+  left: 292px;
+  z-index: 1001;
+}
+
+.wp_grid_select_columns {
+  left: 396px;
+}
+.wp_grid_select_cells {
+  left: 396px;
+}
+
+.select_wp_grid {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  font-weight: 300;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+.select_wp_grid:hover {
+  background-color: #0073aa;
+  color: #fff;
+}

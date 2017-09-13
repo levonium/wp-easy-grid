@@ -19,6 +19,20 @@
     }
   }
 
+  .text-center {
+
+    .easy-grid-cell {
+      text-align: center;
+    }
+  }
+
+  .has_padding {
+
+    .easy-grid-cell {
+      padding: 1em;
+    }
+  }
+
   &.alternate {
 
     .easy-grid-cell {

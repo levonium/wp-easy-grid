@@ -48,26 +48,49 @@ class WP_Easy_grid_Admin {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_styles() {
+		public function enqueue_styles() {
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/wp-easy-grid-admin.css', array(), $this->version, 'all' );
+			wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/wp-easy-grid-admin.css', array(), $this->version, 'all' );
 
-	}
+		}
 
 	/**
 	 * Register the JavaScript for the admin area.
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_scripts() {
+		public function enqueue_scripts() {
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/wp-easy-grid-admin.js', array( $this->plugin_name . 'ace' ,'jquery' ), $this->version, false );
+			wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/wp-easy-grid-admin.js', '', $this->version, true );
 
-	}
+		}
 
-	public function register_grid_shortcodes() {
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/wp-easy-grid-shortcodes.php';
-	}
+	/**
+	 * Register Grid Shorctodes
+	 *
+	 * @since 	1.0.0
+	 */
+	 	public function wp_grid_register_shortcodes() {
+			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/wp-easy-grid-shortcodes.php';
+		}
+
+	/**
+	 * Register WP Editor Button
+	 *
+	 * @since		1.0.0
+	 */
+		public function wp_grid_edidor_button() {
+			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/wp-easy-grid-editor.php';
+		}
+
+	/**
+	 * Register Admin options page
+	 *
+	 * @since		1.0.0
+	 */
+		public function wp_grid_admin_options_page() {
+			require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/wp-easy-grid-admin-options.php';
+		}
 
 
 }

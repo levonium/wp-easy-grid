@@ -12,6 +12,10 @@
     grid-gap: 20px; }
   .easy-grid.bordered .easy-grid-cell {
     border: 1px solid #c1c1c1; }
+  .easy-grid .text-center .easy-grid-cell {
+    text-align: center; }
+  .easy-grid .has_padding .easy-grid-cell {
+    padding: 1em; }
   .easy-grid.alternate .easy-grid-cell {
     background-color: #bfd8b2; }
     .easy-grid.alternate .easy-grid-cell:nth-child(even) {
