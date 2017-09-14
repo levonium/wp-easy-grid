@@ -19,14 +19,14 @@
     }
   }
 
-  .text-center {
+  &.text-center {
 
     .easy-grid-cell {
       text-align: center;
     }
   }
 
-  .has_padding {
+  &.has_padding {
 
     .easy-grid-cell {
       padding: 1em;
