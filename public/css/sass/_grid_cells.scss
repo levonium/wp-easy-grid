@@ -5,12 +5,6 @@
   }
 }
 
-@media screen and (max-width: $width__sm) {
-  @for $i from 1 through 12 {
-    .easy-grid-cell.cells_#{$i} { grid-column: span 12; }
-  }
-}
-
 // some common cell combinations
 .easy-grid-cell.half_grid {
   grid-column: span 6;
@@ -23,4 +17,22 @@
 }
 .easy-grid-cell.sixth_grid {
   grid-column: span 2;
+}
+
+@media screen and (max-width: $width__sm) {
+  @for $i from 1 through 12 {
+    .easy-grid-cell.cells_#{$i} { grid-column: span 12; }
+  }
+  .easy-grid-cell.half_grid {
+    grid-column: span 12;
+  }
+  .easy-grid-cell.third_grid {
+    grid-column: span 12;
+  }
+  .easy-grid-cell.fourth_grid {
+    grid-column: span 12;
+  }
+  .easy-grid-cell.sixth_grid {
+    grid-column: span 12;
+  }
 }

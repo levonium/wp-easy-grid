@@ -57,6 +57,18 @@
 .easy-grid-cell.cells_12 {
   grid-column: span 12; }
 
+.easy-grid-cell.half_grid {
+  grid-column: span 6; }
+
+.easy-grid-cell.third_grid {
+  grid-column: span 4; }
+
+.easy-grid-cell.fourth_grid {
+  grid-column: span 3; }
+
+.easy-grid-cell.sixth_grid {
+  grid-column: span 2; }
+
 @media screen and (max-width: 1300px) {
   .easy-grid-cell.cells_1 {
     grid-column: span 12; }
@@ -92,17 +104,18 @@
     grid-column: span 12; }
 
   .easy-grid-cell.cells_12 {
+    grid-column: span 12; }
+
+  .easy-grid-cell.half_grid {
+    grid-column: span 12; }
+
+  .easy-grid-cell.third_grid {
+    grid-column: span 12; }
+
+  .easy-grid-cell.fourth_grid {
+    grid-column: span 12; }
+
+  .easy-grid-cell.sixth_grid {
     grid-column: span 12; } }
-.easy-grid-cell.half_grid {
-  grid-column: span 6; }
-
-.easy-grid-cell.third_grid {
-  grid-column: span 4; }
-
-.easy-grid-cell.fourth_grid {
-  grid-column: span 3; }
-
-.easy-grid-cell.sixth_grid {
-  grid-column: span 2; }
 
 /*# sourceMappingURL=wp-easy-grid.css.map */
