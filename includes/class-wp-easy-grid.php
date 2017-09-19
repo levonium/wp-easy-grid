@@ -149,6 +149,7 @@ class WP_Easy_Grid {
 		$this->loader->add_action( 'plugins_loaded', $plugin_admin, 'wp_grid_register_shortcodes' );
 		$this->loader->add_action( 'admin_init', $plugin_admin, 'wp_grid_edidor_button' );
 		$this->loader->add_action( 'init', $plugin_admin, 'wp_grid_admin_options_page' );
+		$this->loader->add_action( 'init', $plugin_admin, 'wp_grid_admin_settings_link' );
 
 	}
 

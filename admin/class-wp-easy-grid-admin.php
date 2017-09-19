@@ -93,4 +93,13 @@ class WP_Easy_grid_Admin {
 		}
 
 
+	/**
+	 * Plugin Settings Links
+	 *
+	 * @since 1.0.0
+	 */
+	 public function wp_grid_admin_settings_link() {
+		 require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/partials/wp-easy-grid-settings-link.php';
+	 }
+
 }
