@@ -69,7 +69,7 @@
 .easy-grid-cell.sixth_grid {
   grid-column: span 2; }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 900px) {
   .easy-grid-cell.cells_1 {
     grid-column: span 12; }
 
