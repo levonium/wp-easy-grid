@@ -10,7 +10,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP Easy Grid
  * Plugin URI:        https://drim.io/wp-easy-grid/
- * Description:       An simple CSS Grid plugin for WP to easily make grid layouts.
+ * Description:       A simple CSS Grid plugin for WP to easily make grid layouts.
  * Version:           1.0.0
  * Author:            Levon Avetyan
  * Author URI:        https://drim.io

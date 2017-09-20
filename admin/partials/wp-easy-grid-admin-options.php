@@ -171,18 +171,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 						</p>
 					</div>
 
-					<div class="wp-easy-grid-desc">
-						<p>
-							<span class="dashicons dashicons-info"></span>
-							On screens smaller than 1300px wide, all grid cells become 100%.
-							<br/>
-							To change this value, you'll need to edit the file containg the CSS Styles:
-							<a href="<?php echo plugins_url( 'wp-easy-grid/public/css/wp-easy-grid.css' ); ?>" target="_blank"> <?php echo plugins_url( 'wp-easy-grid/public/css/wp-easy-grid.css' ); ?> </a>
-							<br/>
-							and change the line <code> @media screen and (max-width: 1300px) { </code> by replacing '1300' with whatever value you need.
-						</p>
-					</div>
-
 				</div>
 
 				<div class="right-wrapper">
